@@ -4,7 +4,6 @@ public class MyAccount {
 	private int m_accNum; //口座番号
 	private int m_password; //暗証番号
 	private int m_balance; //残高
-	private int m_dob; //生年月日
 
 	public MyAccount() {}
 
@@ -16,7 +15,4 @@ public class MyAccount {
 
 	public int getBalance() { return m_balance; }
 	public void setBalance(int balance) { m_balance = balance; }
-
-	public int getDob() { return m_dob; }
-	public void setDob(int dob) { m_dob = dob; }
 }
