@@ -65,6 +65,7 @@ public class Main {
 				m_account.setPass(sc.nextInt());
 
 			}else System.out.println("Wrong date of birth");
+
 		} else System.out.println("Wrong ID");
 	}
 
